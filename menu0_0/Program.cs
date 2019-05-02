@@ -10,16 +10,11 @@ namespace menu0_0
     {
         static void Main(string[] args)
         {
-            
             while (true)
             {
                 int answer = MainMenu();
                 EnterToMenu(answer);
-
             }
-
-
-
         }
 
         static void EnterToMenu(int answer)
